@@ -1,0 +1,59 @@
+
+/* Media query for large screen */
+@media screen and (min-width:1201px) {
+    .container{
+        margin: 0% 7%;
+    }
+    nav ul li {
+        display: inline-block;
+    }
+    .top-div {
+        padding: 0%;
+        top: 1%;
+        right: 6%;
+    }
+    .bottom-div {
+        padding: 4% 0%;
+        top: 50%;
+        right: -8%;
+    }
+    .text_div h3{
+        font-size: 4em;
+    }
+    .text_div input{
+        font-size: 1.5em;
+    }
+    .text_div button{
+        font-size: 20px;
+    }
+    .payment-method span{
+        font-size: 3.2em;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+    .container2 {
+        flex-direction: row;
+        margin: 2% 5% 0% 5%;
+    }
+    .image_div {
+        position: relative;
+        flex: 50%;
+        padding: 10px;
+
+    }
+    .text_div {
+        flex: 50%;
+        padding: 10px;
+        margin-left: 7%;
+    }
+    .image_div h1{
+        font-size: 4em;
+    }
+    .image_div span{
+        display: inline-block;
+        font-size: 1.5em;
+        margin-left: 15px;
+    }
+      
+}
