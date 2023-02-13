@@ -22,7 +22,6 @@ A middleware is a program that that works betweemn the time server get the reque
 ## 📝 Table of Contents
 
 - [App1_Route_URL](#app1_route)
-- [Getting Started](#getting_started)
 
 
 ## 🧐 App1_Route_URL <a name = "app1_route"></a>
