@@ -11,6 +11,7 @@ app.use(checkUrl);
 
 app.get('/',function(req,res){
     res.send("This is Home page")
+
 });
 
 app.get('/login',function(req,res){

@@ -13,7 +13,7 @@
 
 <p align="center"> This respository containes different programms to understand the concept of middle ware in nodejs.
 
-A middleware is a program that that works betweemn the time server get the request and time server send the request.  
+A middleware is a program that that works between the time server get the request and time server send the request.  
 </p>
 
 
@@ -22,15 +22,33 @@ A middleware is a program that that works betweemn the time server get the reque
 ## 📝 Table of Contents
 
 - [App1_Route_URL](#app1_route)
+- [Middleware2](#middleware_2)
+- [Built-in Middleware](#b_middleware)
+- [Third Party Middleware](#t_middleware)
+
 
 
 ## 🧐 App1_Route_URL <a name = "app1_route"></a>
 This program has a middlwear which tells that which path of the URL was accessesd and log it in the terminal.
 
 
+## 🧐 Middleware2 <a name = "middleware_2"></a>
+This program demostrate Application and Router level middleware.
+
+## 🧐 Built-in Middleware <a name = "b_middleware"></a>
+- ### express.static : serves assets such as HTML files, images, and so on.
+- ### express.json : parse incoming requests with JSON payloads.
+- ### express.urlencoded :parse incoming requests with URL-encoded payloads.
+
+## 🧐 Third Party Middleware <a name = "t_middleware"></a>
+We can use third-party middleware to add functionality to Express apps.
+
+- ### cookie-parse
+
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
 ```
 - Code Step By Step
+- Geeky Shows
 
